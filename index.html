@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="image/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fawaz Taha Mohammed Al-Hasani Carpentry</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="app">
+      <div class="cardList">
+        <button class="cardList__btn btn btn--left">
+          <div class="icon">
+            <svg>
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </div>
+        </button>
+
+        <div class="cards__wrapper">
+          <div class="card current--card">
+            <div class="card__image">
+              <img src="image/1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="card next--card">
+            <div class="card__image">
+              <img src="image/2.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="card previous--card">
+            <div class="card__image">
+              <img src="image/3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <button class="cardList__btn btn btn--right">
+          <div class="icon">
+            <svg>
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+
+      <div class="infoList">
+        <div class="info__wrapper">
+          <div class="info current--info">
+            <h1 class="text name">فواز طه محمد</h1>
+            <h1 class="text name">الحسني للنجارة</h1>
+            <br />
+            <br />
+            <br />
+            <br />
+            <h4 class="text location">لتوريد طلبات النجارة بالجملة</h4>
+            <h4 class="text location">باسعار منافسة</h4>
+          </div>
+
+          <div class="info next--info">
+            <h1 class="text name">اختيارك</h1>
+            <br />
+            <br />
+            <h4 class="text location">توريد طبالي - طاولات</h4>
+            <h4 class="text location">كراسي - دواليب - سراير</h4>
+            <h4 class="text location">طلبات خاصة بجميع الاحجام</h4>
+            <h4 class="text location">والابعاد</h4>
+            <br />
+            <br />
+            <h4 class="text location">نقبل عروض الشراء</h4>
+          </div>
+
+          <div class="info previous--info">
+            <h1 class="text name">تواصل عبر</h1>
+            <br /><br /><br /><br />
+            <h4 class="text location">هاتف : 0550557001</h4>
+            <br />
+            <h4 class="text location">رقم الضريبي</h4>
+            <h4 class="text location">311665977100003</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="app__bg">
+        <div class="app__bg__image current--image">
+          <img src="image/background1.jpg" alt="" />
+        </div>
+        <div class="app__bg__image next--image">
+          <img src="image/background2.jpg" alt="" />
+        </div>
+        <div class="app__bg__image previous--image">
+          <img src="image/background3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="loading__wrapper">
+      <div class="loader--text">Loading...</div>
+      <div class="loader">
+        <span></span>
+      </div>
+    </div>
+
+    <svg class="icons" style="display: none">
+      <symbol
+        id="arrow-left"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="328 112 184 256 328 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+      <symbol
+        id="arrow-right"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="184 112 328 256 184 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+    </svg>
+
+    <div class="support">
+      <!-- <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+	<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a> -->
+      <img src="image/logo.png" alt="" />
+    </div>
+    <!-- partial -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
